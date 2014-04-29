@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+/home/ct/Universidad/.metadata/.plugins/org.eclipse.jdt.core
+1594055222.index
+671378080.index
+2970434330.index
