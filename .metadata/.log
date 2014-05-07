@@ -785,3 +785,24 @@ Java Model Exception: Java Model Status [<project root> [in Ejercicio01] no est�
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
 !SUBENTRY 1 org.eclipse.jdt.core 4 1006 2014-05-06 21:10:41.026
 !MESSAGE <project root> [in Ejercicio01] no está en la vía de acceso de construcción del proyecto
+
+!ENTRY org.eclipse.jface 2 0 2014-05-06 21:38:30.719
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-05-06 21:38:30.719
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.eof,EOF,
+		Enviar final de archivo,
+		Category(org.eclipse.debug.ui.category.run,Ejecutar/depurar,categoría de mandatos de ejecutar/depurar,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@12aa9c9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.console,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Suprimir línea,
+		Suprimir una línea de texto,
+		Category(org.eclipse.ui.category.textEditor,Edición de texto,Mandatos de edición de texto,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1e619cb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
