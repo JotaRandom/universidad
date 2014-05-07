@@ -1,0 +1,7 @@
+package cl.esucomex.sistema.modelo;
+
+public class Persona {
+	public static void main(String[] args){
+		
+	}
+}

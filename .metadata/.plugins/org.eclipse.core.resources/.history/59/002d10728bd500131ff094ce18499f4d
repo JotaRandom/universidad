@@ -1,0 +1,12 @@
+package cl.esucomex.sistema.modelo;
+
+import java.io.IOException;
+
+public class Persona {
+	public static void main(String[] args) {
+		String rut;
+		String nombre;
+		String direccion;
+		java.util.Date fechadenacimiento;
+	}
+}

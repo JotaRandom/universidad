@@ -1,0 +1,5 @@
+package cl.esucomex.modelo.persona;
+
+public class Persona {
+
+}
