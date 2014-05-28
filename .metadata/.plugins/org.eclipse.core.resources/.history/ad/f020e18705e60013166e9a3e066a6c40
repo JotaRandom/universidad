@@ -1,24 +1,14 @@
 package cl.esucomex.sistema.modelo;
 
 import java.io.IOException;
-import java.util.Date;
 
 public class Persona {
-	public Persona(String string, String string2, String string3, Date date) {
-		// TODO Apéndice de constructor generado automáticamente
-	}
-
 	public static void main(String[] args) throws IOException {
 		String rut;
 		String nombre;
 		String direccion;
 		java.util.Date fechadenacimiento;
 		Integer telefono;
-	}
-
-	public Object getRut() {
-		// TODO Apéndice de método generado automáticamente
-		return null;
 	}
 	
 	

@@ -15,11 +15,6 @@ public class Persona {
 		java.util.Date fechadenacimiento;
 		Integer telefono;
 	}
-
-	public Object getRut() {
-		// TODO Apéndice de método generado automáticamente
-		return null;
-	}
 	
 	
 }
