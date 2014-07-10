@@ -14,7 +14,6 @@ public class Vehiculo {
 	}
 	
 	public Object Tipovehiculo(){
-		
 		return null;
 	}
 	
@@ -26,8 +25,10 @@ public class Vehiculo {
 		return null;
 	}
 	
-	public Object Vehiculo(String patente, String modelo, String marca, Date anyo, Integer numeroserie, String color){
-		return null;
+	public Vehiculo(String patente, String modelo, String marca, Date anyo, Integer numeroserie, String color){
+		return;
 	}
+	
+	
 }
 
